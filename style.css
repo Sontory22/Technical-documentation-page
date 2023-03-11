@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: calc(60% + 0.8vmin);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2rem;
+  padding-left: 21rem;
+}
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  border: solid 1px black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+}
+.sideBar h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+
+}
+.sideBar a {
+  text-decoration: none;
+  color: black;
+  padding-left: 2rem;
+  margin: 1rem 0;
+}
+main p {
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.4rem;
+  margin-right: 4rem;
+  margin-bottom: 1.5rem;
+}
+main h2 {
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+main div {
+  background-color: #f7f7f7;
+  margin-right: 4rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+main div p {
+  font-family: monospace;
+  padding: 1rem;
+  margin: 0 ;
+  font-size: 0.8rem;
+  line-height: 1.7rem;
+
+}
+main a {
+  color: blue;
+}
+main h4 {
+  margin-left: 1.5rem;
+}
+main li {
+  margin-left: 5rem;
+  margin-bottom: 1rem;
+}
+#catBox {
+  margin-bottom: 1rem;
+}
+.miniContainer {
+  display: flex;
+  background-color: white;
+  width: 45rem;
+  margin: 0;
+}
+.leftMini p {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  font-size: 0.95rem;
+  padding: 0;
+}
+.rightMini p{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  font-size: 0.95rem;
+  padding: 0;
+}
+@media screen and (max-width: 600px) {
+  .sideBar {
+    color: red;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 35rem;
+    margin-left: 2.5rem;
+
+  }
+  main {
+    margin: 0;
+    width: 40rem;
+    padding-left: 2.5rem;
+  }
+  body {
+    padding: 0;
+  }
+
+  }
